@@ -62,6 +62,10 @@ export default function RootLayout({
               <a href="/research" className="hover:text-teal">
                 Research
               </a>
+              <a href="/blog" className="hover:text-teal">
+  Blog
+</a>
+
             </div>
           </nav>
         </header>
