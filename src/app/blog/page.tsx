@@ -8,6 +8,17 @@ export default function BlogPage() {
       <p className="mt-4 max-w-2xl text-teal">
         Articles on finance, data analysis, and market signals.
       </p>
+
+      <ul className="mt-8 space-y-4">
+        <li>
+          <a
+            href="/blog/first-post"
+            className="text-navy underline hover:text-teal"
+          >
+            Welcome to Quantara
+          </a>
+        </li>
+      </ul>
     </div>
   );
 }
