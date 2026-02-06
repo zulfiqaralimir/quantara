@@ -13,8 +13,26 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Quantara",
-  description: "Signals Beyond the Noise.",
+  title: {
+    default: "Quantara",
+    template: "%s | Quantara",
+  },
+  description:
+    "Signals Beyond the Noise. Financial analysis, data insights, and visual intelligence.",
+  metadataBase: new URL("https://quantara-nine.vercel.app"),
+  openGraph: {
+    title: "Quantara",
+    description:
+      "Signals Beyond the Noise. Financial analysis, data insights, and visual intelligence.",
+    url: "https://quantara-nine.vercel.app",
+    siteName: "Quantara",
+    locale: "en_US",
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
