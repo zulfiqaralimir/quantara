@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Research",
+  description: "In-depth research notes, models, and long-form financial studies.",
+};
+
 export default function ResearchPage() {
   return (
     <div className="mx-auto max-w-5xl px-6 py-16">

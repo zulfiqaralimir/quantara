@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Visuals",
+  description: "Animated charts, data stories, and visual explanations of finance.",
+};
+
 export default function VisualsPage() {
   return (
     <div className="mx-auto max-w-5xl px-6 py-16">

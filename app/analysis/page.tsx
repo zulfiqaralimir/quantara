@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Analysis",
+  description: "Deep financial analysis, market signals, and data-driven insights.",
+};
+
 export default function AnalysisPage() {
   return (
     <div className="mx-auto max-w-5xl px-6 py-16">
