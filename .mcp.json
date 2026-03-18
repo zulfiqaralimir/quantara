@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "fetch": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-fetch"],
+      "description": "Fetch any URL — used for SEC EDGAR API, Yahoo Finance API, FRED API, earnings transcripts, and IR pages"
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"],
+      "description": "Browser automation — used for JS-rendered pages: earnings call transcripts, IR decks, news sites"
+    }
+  }
+}

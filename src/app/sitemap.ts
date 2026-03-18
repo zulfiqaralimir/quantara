@@ -9,15 +9,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
+      url: `${baseUrl}/screener`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseUrl}/portfolio`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseUrl}/research`,
+      lastModified: new Date(),
+    },
+    {
       url: `${baseUrl}/analysis`,
       lastModified: new Date(),
     },
     {
       url: `${baseUrl}/visuals`,
-      lastModified: new Date(),
-    },
-    {
-      url: `${baseUrl}/research`,
       lastModified: new Date(),
     },
   ];

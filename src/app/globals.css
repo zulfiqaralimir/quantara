@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 /* Root color variables */
 :root {
@@ -34,4 +35,14 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Prose (research memos) — override typography defaults with Quantara brand */
+.prose {
+  --tw-prose-headings: #0B1F33;
+  --tw-prose-links: #1FB6A6;
+  --tw-prose-bold: #0B1F33;
+  --tw-prose-code: #0B1F33;
+  --tw-prose-th-borders: #e5e7eb;
+  --tw-prose-td-borders: #f3f4f6;
 }

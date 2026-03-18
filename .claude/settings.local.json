@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:wisesheets.io)",
+      "WebFetch(domain:www.wsj.com)",
+      "WebFetch(domain:simplywall.st)",
+      "WebFetch(domain:finance.yahoo.com)"
+    ]
+  }
+}

@@ -53,19 +53,24 @@ export default function RootLayout({
             </span>
 
             <div className="flex gap-6 text-sm font-medium">
+              <a href="/screener" className="hover:text-teal">
+                Screener
+              </a>
+              <a href="/portfolio" className="hover:text-teal">
+                Portfolio
+              </a>
+              <a href="/research" className="hover:text-teal">
+                Research
+              </a>
               <a href="/analysis" className="hover:text-teal">
                 Analysis
               </a>
               <a href="/visuals" className="hover:text-teal">
                 Visuals
               </a>
-              <a href="/research" className="hover:text-teal">
-                Research
-              </a>
               <a href="/blog" className="hover:text-teal">
-  Blog
-</a>
-
+                Blog
+              </a>
             </div>
           </nav>
         </header>

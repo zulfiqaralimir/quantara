@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Analysis",
-  description: "Deep financial analysis, market signals, and data-driven insights.",
+  description:
+    "Deep financial analysis, market signals, and data-driven insights.",
 };
 
 export default function AnalysisPage() {
@@ -15,6 +16,18 @@ export default function AnalysisPage() {
       <p className="mt-4 max-w-2xl text-teal">
         Deep financial analysis, market signals, and data-driven insights.
       </p>
+
+      {/* Analysis posts */}
+      <ul className="mt-8 space-y-4">
+        <li>
+          <a
+            href="/analysis/posts/market-outlook"
+            className="text-navy underline hover:text-teal"
+          >
+            Market Outlook
+          </a>
+        </li>
+      </ul>
     </div>
   );
 }
